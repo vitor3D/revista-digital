@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+    
+    cursor: default;
+}
 
 body{
-    background: #323232;
+    background: #1d1d1d;
     color: white;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 nav{
@@ -35,6 +43,18 @@ nav .logo{
     letter-spacing: 2px; 
 }
 
+#book:hover{
+    transform: scale(1.1);
+
+    -webkit-transform: rotateZ(-20deg);
+    -ms-transform: rotateZ(-20deg);
+    transform: rotateZ(-20deg);
+
+    transition: all ease-in-out 0.5s;
+    
+}
+
+
 nav ul{
     display: flex;
     justify-content: center;
@@ -55,7 +75,20 @@ nav ul li a {
 
 nav ul li a:hover{
     background: #fff;
-    color: #2b1055;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+.main{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 90px;
+    margin-top: 80px;
+
+    font-size: 20px;
 }
 
 header{
@@ -78,4 +111,70 @@ header p{
     font-size: 20px;
     margin-bottom: 2em;
 }
+img{
+  /*  width: 500px;
+    height: 300px;
+    padding: 10px;
+
+    border-radius: 20px;
+*/
+
+    
+    
+  width: 350px;
+  height: 300px;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  border-radius: 20px;
+  padding: 5px;
+    
+}
+li{
+    list-style-type: none;
+
+    font-size: 19px;
+}
+h1:hover{
+   transform: scale(1.1);
+   transition: 0.5s all ease-in-out;
+}
+h2:hover{
+    transform: scale(1.1);
+    transition: 0.5s all ease-in-out;
+ }
+ h3:hover{
+    transform: scale(1.1);
+    transition: 0.5s all ease-in-out;
+ }
+ 
+header{
+    background-color: #323232;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+#af{
+    background-color: #323232;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 5%;
+    padding: 15px;
+}
+#cai{
+    background-color: #323232;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 5%;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
 
