@@ -253,4 +253,13 @@ footer p{
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 1.1em;
+}.etec{
+    width: 80px;
+    height: 50px;
+    border-radius: 0px;
+
+}
+.capivara{
+    width: 600px;
+    height: 300px;
 }
